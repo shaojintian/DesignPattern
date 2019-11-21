@@ -1,0 +1,60 @@
+
+├── DesignPatterns.iml
+├── LICENSE.txt
+├── README.md
+├── /docs/
+│  ├── /images/
+│  │  ├── logo.png
+│  │  ├── reward_alipay.png
+│  │  └── reward_wechat.png
+│  ├── /rules/
+│  │  ├── backend.txt
+│  │  └── frontend.txt
+│  ├── /tool_recommendations/
+│  │  └── tool_recommendations.md
+├── /out/
+│  ├── /production/
+│  │  ├── /DesignPatterns/
+│  │  │  ├── /factory/
+│  │  │  │  ├── /simple/
+│  │  │  │  │  ├── Calculator.class
+│  │  │  │  │  ├── Operation.class
+│  │  │  │  │  ├── OperationAdd.class
+│  │  │  │  │  ├── OperationDiv.class
+│  │  │  │  │  ├── OperationFactory.class
+│  │  │  │  │  ├── OperationMul.class
+│  │  │  │  │  └── OperationSub.class
+├── /src/
+│  ├── .DS_Store
+│  ├── /adapter/
+│  ├── /bridge/
+│  ├── /builder/
+│  ├── /command/
+│  ├── /composite/
+│  ├── /decorator/
+│  ├── /facade/
+│  ├── /factory/
+│  │  ├── /abstract/
+│  │  ├── /method/
+│  │  ├── /simple/
+│  │  │  ├── Calculator.java
+│  │  │  ├── Operation.class
+│  │  │  ├── OperationAdd.java
+│  │  │  ├── OperationDiv.java
+│  │  │  ├── OperationFactory.java
+│  │  │  ├── OperationMul.java
+│  │  │  └── OperationSub.java
+│  ├── /flyweight/
+│  ├── /interpreter/
+│  ├── /iterator/
+│  ├── /mediator/
+│  ├── /memento/
+│  ├── /observer/
+│  ├── /prototype/
+│  ├── /proxy/
+│  ├── /responsibilitychain/
+│  ├── /singleton/
+│  ├── /state/
+│  ├── /strategy/
+│  ├── /template/
+│  └── /visitor/
