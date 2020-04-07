@@ -49,7 +49,7 @@ public class SecuritySingleton {
         private static final SecuritySingleton  INSTANCE = new SecuritySingleton();
     }
 
-    public static SecuritySingleton getInstance(){
+    public static final SecuritySingleton getInstance(){
         return LazyHolder.INSTANCE;
     }
 
