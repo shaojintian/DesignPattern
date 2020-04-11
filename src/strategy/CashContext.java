@@ -7,15 +7,15 @@ public class CashContext {
     private CashSuper cashSuper;
     public CashContext(String activity) {
 
-        switch (activity){
+        switch (1){
 
-            case "正常":
+            case 1:
                 cashSuper = new CashNormal();
                 break;
-            case "满300减30":
+            case 2:
                 cashSuper = new CashReturn();
                 break;
-            case "打8折":
+            case 3:
                 cashSuper = new CashRebate();
             default:
                 throw new RuntimeException("illegal cash activity");
