@@ -2,16 +2,10 @@ package factory.simple;
 
 public class OperationDiv implements Operation{
 
-    private double o1;
-    private double o2;
 
-    public OperationDiv(double o1,double o2){
-        this.o1 = o1;
-        this.o2 = o2;
-    }
 
     @Override
-    public double result(){
+    public double result(double o1,double o2){
         if(o2==0){
             throw new IllegalArgumentException("...");
         }
