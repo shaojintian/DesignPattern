@@ -1,15 +1,9 @@
 package factory.method;
 
-import factory.simple.OperationAdd;
-import factory.simple.OperationMulti;
-import factory.simple.OperationSub;
-
 public class Calculator {
-
-
     private Calculator(double o1,double o2){}
 
-    private static Operation useOperator(String operation){
+    private static Operation createOperation(String operation){
         if (operation.equalsIgnoreCase("add")){
             return new OperationAddFactory().createOperation();
         }else if (operation.equalsIgnoreCase("subtract")){
@@ -24,7 +18,7 @@ public class Calculator {
     }
 
     public static double calculate(String operation,double o1 ,double o2){
-        return useOperator(operation).result(o1,o2);
+        return createOperation(operation).result(o1,o2);
     }
 
     public static void main(String[] args) {

@@ -1,7 +1,6 @@
 package factory.abstraction;
 
 public class CalculatorFactory {
-
     public static  Operation createOperation(String operation){
         if (operation.equalsIgnoreCase("add")){
             return new OperationAddFactory().createOperation();
@@ -12,7 +11,6 @@ public class CalculatorFactory {
         }else if(operation.equalsIgnoreCase("divide")){
             return new OperationDivFactory().createOperation();
         }
-
         throw new IllegalArgumentException("....");
     }
 }

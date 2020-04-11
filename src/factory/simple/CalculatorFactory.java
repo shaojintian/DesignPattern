@@ -1,7 +1,5 @@
 package factory.simple;
 
-
-
 public class CalculatorFactory {
 
     public static Operation createOperation(String operation){
